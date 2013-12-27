@@ -1,0 +1,31 @@
+{
+  "name": "node-dialog",
+  "version": "0.0.0",
+  "author": "YunJiang.Fang",
+  "description": "dialog utils of node console command",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fov42550564/node-dialog.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "dialog",
+    "console",
+    "nodejs",
+    "command",
+    "box"
+  ],
+  "dependencies": {
+    "colors": "*",
+    "printf": "*"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fov42550564/node-dialog/issues"
+  },
+  "homepage": "https://github.com/fov42550564/node-dialog",
+  "directories": {
+    "test": "test"
+  }
+}
