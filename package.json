@@ -15,6 +15,7 @@
   "keywords": [
     "dialog",
     "console",
+	"commander",
     "nodejs",
     "command",
     "box"

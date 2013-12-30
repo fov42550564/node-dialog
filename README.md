@@ -8,7 +8,9 @@ dialog utils of node console command<br \>
 note
 ------------
 if you want to use ncurses to show dialogs  <br \>
-please turn to [node-ncurses]
+please turn to [node-ncurses] <br \>
+
+canbe combinate with commander show commander help
 
 Installation
 ------------
