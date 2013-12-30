@@ -8,7 +8,10 @@
     "url": "git://github.com/fov42550564/node-dialog.git"
   },
   "main": "index.js",
-  "scripts": {},
+  "gypfile": true,
+  "scripts": {
+	  "install": "node-gyp rebuild"
+  },
   "keywords": [
     "dialog",
     "console",
