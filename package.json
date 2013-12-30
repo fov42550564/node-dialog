@@ -1,6 +1,6 @@
 {
   "name": "node-dialog",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "YunJiang.Fang",
   "description": "dialog utils of node console command",
   "repository": {
