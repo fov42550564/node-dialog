@@ -3,9 +3,8 @@
 */
 
 var Dialog = require('..');
-var program = require('commander');
-
 var dialog = new Dialog();
+var program = dialog.commander();
 
 function range(val) {
   return val.split('..').map(Number);
@@ -15,13 +14,19 @@ function list(val) {
   return val.split(',');
 }
 
-program.outputHelp = function() {
-	console.log("help");
-	dialog.msgbox(program.usage(), ["Usage :commander [OPTIONS]", "-i[integer]:show a integer", "-f[float]:show a float", "-r[range]:show a range"]);
-}
+program.command('setup')
+    .description('run remote setup commands')
+    .action(function(){
+    console.log('setup');
+    }); 
 
-program
-  .version('0.0.1')
+program.command('exec <cmd>')
+    .description('run the given remote command')
+    .action(function(cmd){
+    console.log('exec "%s"', cmd);
+    }); 
+
+program .version('0.0.1')
   .usage('test')
   .option('-i, --integer <n>', 'An integer argument', parseInt)
   .option('-f, --float <n>', 'A float argument', parseFloat)
@@ -37,4 +42,6 @@ console.log(' optional: %j', program.optional);
 program.range = program.range || [];
 console.log(' range: %j..%j', program.range[0], program.range[1]);
 console.log(' list: %j', program.list);
-console.log(' args: %j', program.args);
+//console.log(' args: %j', program.args);
+
+

@@ -1,6 +1,6 @@
 {
   "name": "node-dialog",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "YunJiang.Fang",
   "description": "dialog utils of node console command",
   "repository": {
@@ -14,15 +14,23 @@
   },
   "keywords": [
     "dialog",
+    "inputbox",
+    "menubox",
+    "radiobox",
+    "checkbox",
+    "msgbox",
+    "pause",
+    "dialog",
     "console",
 	"commander",
     "nodejs",
     "command",
-    "box"
+    "shell",
   ],
   "dependencies": {
     "colors": "*",
     "printf": "*"
+    "commander": "*"
   },
   "license": "MIT",
   "bugs": {
