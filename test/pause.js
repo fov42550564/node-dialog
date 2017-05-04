@@ -1,5 +1,3 @@
-var Dialog = require('..');
-
-var dialog = new Dialog();
+var dialog = require('..');
 
 dialog.pause();

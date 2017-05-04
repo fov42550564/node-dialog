@@ -9,9 +9,6 @@
   },
   "main": "index.js",
   "gypfile": true,
-  "scripts": {
-	  "install": "node-gyp rebuild"
-  },
   "keywords": [
     "dialog",
     "inputbox",
